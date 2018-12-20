@@ -25,13 +25,13 @@ function getTheme () {
     function changeTheme (Theme) {
         document.getElementById('style').setAttribute('href', Theme);
     }
-    var index = document.getElementById("select").selectedIndex;
-    switch (index) {
-        case 0: 
-          changeTheme('css/dark-snake.css');
-          break;
-          case 1: changeTheme('css/main-snake.css');
-    }
+//     var index = document.getElementById("select").selectedIndex;
+//     switch (index) {
+//         case 0: 
+//           changeTheme('css/dark-snake.css');
+//           break;
+//           case 1: changeTheme('css/main-snake.css');
+//     }
 }
 if (navigator.onLine && window.location.hostname === 'patorjk.com') {
     var _gaq = _gaq || [];
