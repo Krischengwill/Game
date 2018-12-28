@@ -84,6 +84,7 @@ a.snake-link:hover {
     padding: 0px;
     background-color: rebeccapurple;
     border: 0px solid rebeccapurple;
+    border-radius: 10px;
     position: absolute;
 }
 
